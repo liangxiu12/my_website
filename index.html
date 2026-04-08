@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>梁秀生的个人主页</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+            background: #f4f7fb;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            opacity: 0.95;
+        }
+
+        nav {
+            background: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #2a5298;
+            margin: 0 20px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #1e3c72;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        .card {
+            background: white;
+            margin-bottom: 25px;
+            padding: 30px;
+            border-radius: 14px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        .card h2 {
+            color: #1e3c72;
+            margin-bottom: 15px;
+            border-left: 5px solid #2a5298;
+            padding-left: 12px;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #e8f0ff;
+            color: #1e3c72;
+            padding: 8px 14px;
+            margin: 8px 8px 0 0;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8fbff;
+            border-left: 4px solid #2a5298;
+            border-radius: 8px;
+        }
+
+        .project h3 {
+            margin-bottom: 8px;
+            color: #2a5298;
+        }
+
+        footer {
+            text-align: center;
+            background: #1e3c72;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .contact p {
+            margin: 8px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>梁秀生</h1>
+        <p>个人主页 | 机械设计制造及其自动化</p>
+    </header>
+
+    <nav>
+        <a href="#about">关于我</a>
+        <a href="#skills">技能</a>
+        <a href="#projects">项目经历</a>
+        <a href="#contact">联系方式</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="about" class="card">
+            <h2>关于我</h2>
+            <p>
+                你好，我是梁秀生，一名机械设计制造及其自动化专业学生。
+                我对机械结构设计、SolidWorks三维建模、CAD制图以及毕业设计相关内容有浓厚兴趣。
+                目前正在学习和完成电驱动小型轮式搬运平台相关设计与分析。
+            </p>
+        </section>
+
+        <section id="skills" class="card">
+            <h2>技能标签</h2>
+            <div class="skills">
+                <span>机械设计</span>
+                <span>SolidWorks 建模</span>
+                <span>CAD 制图</span>
+                <span>结构设计</span>
+                <span>毕业设计写作</span>
+                <span>英语学习</span>
+            </div>
+        </section>
+
+        <section id="projects" class="card">
+            <h2>项目经历</h2>
+
+            <div class="project">
+                <h3>电驱动小型轮式搬运平台</h3>
+                <p>
+                    进行车架、驱动轮、万向轮、电池与控制系统等模块的结构设计与分析，
+                    作为毕业设计的重要研究内容。
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>SolidWorks 三维建模与装配</h3>
+                <p>
+                    学习零件建模、装配设计、工程图输出，以及常见机械部件的绘制与结构优化。
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>机械类毕业设计资料整理</h3>
+                <p>
+                    包括开题报告、文献综述、参考文献整理、进度计划撰写等内容，
+                    逐步形成完整毕业设计文档。
+                </p>
+            </div>
+        </section>
+
+        <section id="contact" class="card contact">
+            <h2>联系方式</h2>
+            <p>邮箱：xiushengliang4@gmail.com</p>
+            <p>微信：18526190189</p>
+            <p>GitHub：github.com/yourname</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2026 梁秀生的个人主页</p>
+    </footer>
+
+</body>
+</html>
